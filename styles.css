@@ -50,6 +50,14 @@ h1, h2, ul, li, a {
     color: green;
 }
 
-.cool_links li:nth-child(3) a {
+.cool_links li:nth-child(3) {
     color: red;
 }
+
+.cool_links li:hover a, .uf_links li:hover a {
+    transition: all 0.5s ease 0s;
+}
+ .cool_links li:hover a, .uf_links li:hover a {
+    color: rgb(143, 1, 1);
+}
+
