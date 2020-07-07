@@ -50,7 +50,7 @@ h1, h2, ul, li, a {
     color: green;
 }
 
-.cool_links li:nth-child(3) {
+.cool_links li:nth-child(3) a {
     color: red;
 }
 
